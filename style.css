@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -59,8 +62,6 @@ ul {
     flex-direction: row;
     justify-content: center;
     flex-direction: column;
-    margin-top: 65%;
-    margin-bottom: 65%;
 }
 
 .image {
@@ -70,7 +71,6 @@ ul {
 .input {
     display: flex;
     justify-content: center;
-    margin: 5px;
 }
 
 .links {
@@ -78,8 +78,6 @@ ul {
     gap: 5px;
     margin: 10px;
 }
-
-
 
 
 
